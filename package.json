@@ -1,0 +1,14 @@
+{
+  "name": "slicer-erp",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ERP local para um ateliê de impressão 3D",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
